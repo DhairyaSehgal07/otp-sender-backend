@@ -155,7 +155,7 @@ const deleteUser = async (req, res) => {
 // MOBILE OTP LOGIC
 
 async function sendOtp(mobileNumber, otp, userId) {
-  const messageBody = `Your mobile verification otp is ${otp}`;
+  const messageBody = `HI YOUR OTP IS ${otp}`;
   const phoneNumber = `+91${mobileNumber}`;
 
   try {
